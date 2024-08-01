@@ -1,5 +1,6 @@
-# keunhong.github.io
+# Soojin Choi
 
+Template borrowed from [here](https://github.com/keunhong/keunhong.github.io)
 - Feel free to borrow this template.
 - Make sure to update all relevant fields in `_config.yml` and `_data`.
 
