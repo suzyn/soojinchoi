@@ -1,3 +1,17 @@
+- id: loco_style
+  title: "Interactive Locomotion Style Control for a Human Character based on Gait Cycle Features"
+  venue: Computer Graphics Forum, 2024
+  paper: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14988?casa_token=NYEqslx1wmIAAAAA:AW_-N-I0hBriU4Qy68sFRSx_5AG-7XCZhpcA7NlUjmz1Xo_DIYKKAqGBy626ctpJLhAOo90IeEmEmhGHRg"
+  video: "https://youtu.be/SvvwF-5ugeU?si=XEX08Ly8D-VWArJl"
+  image: loco_style.png
+  authors:
+    - chaelin
+    - haekwang
+    - jungeun
+    - soojin
+    - junyong
+
+    
 - id: avatar_adaptation
   title: "Online Avatar Motion Adaptation to Morphologically‐similar Spaces"
   venue: Computer Graphics Forum, 2023
@@ -11,17 +25,4 @@
     - chaelin
     - junyong
 
-
-- id: loco_style
-  title: "Interactive Locomotion Style Control for a Human Character based on Gait Cycle Features"
-  venue: Computer Graphics Forum, 2024
-  paper: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14988?casa_token=NYEqslx1wmIAAAAA:AW_-N-I0hBriU4Qy68sFRSx_5AG-7XCZhpcA7NlUjmz1Xo_DIYKKAqGBy626ctpJLhAOo90IeEmEmhGHRg"
-  video: "https://youtu.be/SvvwF-5ugeU?si=XEX08Ly8D-VWArJl"
-  image: loco_style.png
-  authors:
-    - chaelin
-    - haekwang
-    - jungeun
-    - soojin
-    - junyong
 
