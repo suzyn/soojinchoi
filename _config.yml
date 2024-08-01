@@ -25,7 +25,7 @@ email: 97choisj@kaist.ac.kr
 description: >-
   I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/).
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/soojinchoi" # the subpath of your site, e.g. /blog
 url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
 github_username: suzyn97
