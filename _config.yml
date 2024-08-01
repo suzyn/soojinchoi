@@ -26,8 +26,10 @@ description: >-
   I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/).
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://soojinchoi.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: suzyn97
+google_scholar: ""
+google_analytics: ""
 
 # Build settings
 theme: minima
