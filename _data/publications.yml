@@ -2,8 +2,9 @@
   title: "Online Avatar Motion Adaptation to Morphologically‐similar Spaces"
   venue: Computer Graphics Forum, 2023
   description: ""
-  project_page: 
-  image: reconfusion_before.png
+  paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.14740"
+  video: "https://youtu.be/yAS0iZ-V9is?si=khPjF0YIvzezqpqv"
+  image: avatar_adaptation.png
   authors:
     - soojin
     - seokpyo
