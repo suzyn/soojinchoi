@@ -1,14 +1,14 @@
-# - name: Korea Advanced Institute of Science and Technology
-#   description: >-
-#     Ph. D student in Computer Graphics, advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
-#   dates: Fall 2022 - Current
+- name: Korea Advanced Institute of Science and Technology
+  description: >-
+    Ph.D. student in Computer Science, advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
+  dates: 2022 - Present
 
 - name: Korea Advanced Institute of Science and Technology
   description: >-
-    M.S. in Computer Graphics (character animation), advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
-  dates: Fall 2020 - Spring 2022
+    M.S. in Computer Science (Computer Graphics), advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
+  dates: 2020 - 2022
 
   - name: Sungkyunkwan University
   description: >-
-    B.S. in Computer Education and 
-  dates: Spring 2016 - Fall 2020
+    B.S. in Computer Education 
+  dates: 2016 - 2020
