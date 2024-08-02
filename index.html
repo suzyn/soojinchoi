@@ -172,6 +172,42 @@ layout: null
     </div>
   </section>
 
+                  
+  <h2 class="title is-3">Project</h2>
+
+      {% for project in site.data.projects %}
+      <div class="publication-block columns">
+
+        <div class="column is-2">
+          <div class="project-image">
+            <img alt="{{ project.name }}" src="./images/{{ project.image }}" />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="content">
+            <h3 class="publication-title">
+              <span>{{ project.name }}</span>
+            </h3>
+
+            <div class="project-description">
+              <span>as a {{ project.role }}</span>
+            </div>
+
+            <div class="project-description">
+              <span>{{ project.date }}</span>
+            </div>
+
+            <p class="project-description">{{ project.description }}</p>
+
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+  </section>
+                  
 
   <footer class="footer">
     <div class="container">
