@@ -1,4 +1,4 @@
-  - name: Korea Advanced Institute of Science and Technology
+- name: Korea Advanced Institute of Science and Technology
   description: >-
     Ph.D. student in Computer Science, advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
   dates: 2022 - Present
@@ -8,7 +8,8 @@
     M.S. in Computer Science (Computer Graphics), advised by <a href="https://vml.kaist.ac.kr/main/people/person/1">Junyong Noh</a>.
   dates: 2020 - 2022
 
-  - name: Sungkyunkwan University
+- name: Sungkyunkwan University
   description: >-
     B.S. in Computer Education 
   dates: 2016 - 2020
+  
