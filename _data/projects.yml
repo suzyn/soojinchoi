@@ -1,13 +1,13 @@
-# - name: 
-#   support: NRF
-#   date: May. 2025 ~ Ongoing
-#   role: Project Manager
-#   image: nrf.jpg
-#   description: ""
+- name: 
+  support: NRF
+  date: May. 2025 ~ Ongoing
+  role: Project Manager
+  image: nrf.jpg
+  description: ""
 
-# - name: SHARE: Samsung Human-centric AR Experiences
-#   support: Samsung
-#   date: Jun. 2021 ~ Dec. 2022
-#   role: Software Developer
-#   image: samsung.jpg
-#   description: "Development for real-scale human character AR application & research for real-time spatio-temporal motion transfer between morphologically-similar spaces."
+- name: SHARE: Samsung Human-centric AR Experiences
+  support: Samsung
+  date: Jun. 2021 ~ Dec. 2022
+  role: Software Developer
+  image: samsung.jpg
+  description: "Development for real-scale human character AR application & research for real-time spatio-temporal motion transfer between morphologically-similar spaces."
