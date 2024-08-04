@@ -23,13 +23,13 @@ name: Soojin Choi
 position: Ph.D. student @ KAIST 
 email: 97choisj@kaist.ac.kr
 description: >-
-  I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/).
+  Hello, I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/).
 
 baseurl: "/soojinchoi" # the subpath of your site, e.g. /blog
 url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ""
-github_username: suzyn97
-google_scholar: ""
+# twitter_username: ""
+github_username: suzyn
+google_scholar: "9nTnaa4AAAAJ"
 google_analytics: ""
 
 # Build settings
