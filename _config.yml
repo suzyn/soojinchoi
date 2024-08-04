@@ -28,7 +28,7 @@ description: >-
 baseurl: "/soojinchoi" # the subpath of your site, e.g. /blog
 url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: ""
-github_username: suzyn
+github_username: "suyzyn"
 google_scholar: "9nTnaa4AAAAJ"
 google_analytics: ""
 
