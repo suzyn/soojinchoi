@@ -1,3 +1,17 @@
+- id: retarget_interact
+  title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
+  venue: SIGGRAPH Asia, 2024
+  paper: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
+  video: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
+  image: retarget_interact.png
+  authors:
+    - inseo
+    - soojin
+    - seokhyeon 
+    - chaelin
+    - junyong
+    
+
 - id: loco_style
   title: "Interactive Locomotion Style Control for a Human Character based on Gait Cycle Features"
   venue: Computer Graphics Forum, 2024
