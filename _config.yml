@@ -23,8 +23,9 @@ name: Soojin Choi
 position: Ph.D. student @ KAIST 
 email: 97choisj@kaist.ac.kr
 description: >-
-  Hello, I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/).
-  My research focuses on advancing character animation techniques in computer graphics, specifically focusing on 3D full-body animation.
+  Hello, I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at [KAIST](https://www.kaist.ac.kr/en/). <br/>
+  My research focuses on advancing character animation techniques, with a particular emphasis on 3D full-body motion retargeting. 
+  Through my work, I aim to contribute to more efficient and high-quality animation production for film and animation industries. 
 
 baseurl: "/soojinchoi" # the subpath of your site, e.g. /blog
 url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
