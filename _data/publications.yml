@@ -1,6 +1,6 @@
 - id: retarget_interact
   title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
-  venue: SIGGRAPH Asia 2024, ACM Transactions on Graphics (TOG)
+  venue: SIGGRAPH Asia, ACM Transactions on Graphics (TOG) 2024
   paper: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
   video: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
   image: retarget_interact.png
@@ -28,7 +28,7 @@
     
 - id: avatar_adaptation
   title: "Online Avatar Motion Adaptation to Morphologically‐similar Spaces"
-  venue: Eurographics 2023, Computer Graphics Forum (CGF)
+  venue: Eurographics, Computer Graphics Forum (CGF) 2023
   paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.14740"
   video: "https://youtu.be/yAS0iZ-V9is?si=khPjF0YIvzezqpqv"
   image: avatar_adaptation.png
