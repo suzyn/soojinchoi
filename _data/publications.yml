@@ -1,6 +1,6 @@
 - id: retarget_interact
   title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
-  venue: SIGGRAPH Asia, ACM Transactions on Graphics (TOG) 2024
+  venue: [2024] SIGGRAPH Asia, ACM Transactions on Graphics (TOG)
   paper: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
   video: "https://asia.siggraph.org/2024/presentation/?id=papers_778&sess=sess117"
   image: retarget_interact.png
@@ -14,7 +14,7 @@
 
 - id: loco_style
   title: "Interactive Locomotion Style Control for a Human Character based on Gait Cycle Features"
-  venue: Computer Graphics Forum (CGF) 2024
+  venue: [2024] Computer Graphics Forum (CGF)
   paper: "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.14988?casa_token=NYEqslx1wmIAAAAA:AW_-N-I0hBriU4Qy68sFRSx_5AG-7XCZhpcA7NlUjmz1Xo_DIYKKAqGBy626ctpJLhAOo90IeEmEmhGHRg"
   video: "https://youtu.be/SvvwF-5ugeU?si=XEX08Ly8D-VWArJl"
   image: loco_style.png
@@ -28,7 +28,7 @@
     
 - id: avatar_adaptation
   title: "Online Avatar Motion Adaptation to Morphologically‐similar Spaces"
-  venue: Eurographics, Computer Graphics Forum (CGF) 2023
+  venue: [2023] Eurographics, Computer Graphics Forum (CGF)
   paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.14740"
   video: "https://youtu.be/yAS0iZ-V9is?si=khPjF0YIvzezqpqv"
   image: avatar_adaptation.png
