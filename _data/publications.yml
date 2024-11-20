@@ -1,8 +1,9 @@
 - id: retarget_interact
   title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
   venue: SIGGRAPH Asia 2024, ACM Transactions on Graphics (TOG)
-  paper: "https://github.com/loveyourdaddy/Geometry_Aware_Retargeting.github.io/blob/main/Geometry_Aware_Retargeting_for_Two_Skinned_Characters_Interaction.pdf"
+  paper: "https://dl.acm.org/doi/pdf/10.1145/3687962"
   video: "https://www.youtube.com/watch?v=Igl9ghJEVG8&ab_channel=loveyourdaddy"
+  project_page: "https://github.com/loveyourdaddy/Geometry_Aware_Retargeting.github.io/blob/main/Geometry_Aware_Retargeting_for_Two_Skinned_Characters_Interaction.pdf"
   image: retarget_interact.png
   authors:
     - inseo
