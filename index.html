@@ -140,6 +140,7 @@ layout: null
                   }}</a>{% if forloop.last == false %},{% endif %}
                 {% endif %}
               </span>
+              {% assign count = count | plus: 1 %}
               {% endfor %}
             </div>
             <div class="publication-venue">
