@@ -1,3 +1,14 @@
+- id: asmr
+  title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
+  venue: Eurographics 2025, Computer Graphics Forum (CGF)
+  image: asmr.png
+  authors:
+    - seokhyeon
+    - soojin
+    - chaelin
+    - sihun
+    - junyong
+
 - id: retarget_interact
   title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
   venue: SIGGRAPH Asia 2024, ACM Transactions on Graphics (TOG)
@@ -11,7 +22,6 @@
     - seokhyeon 
     - chaelin
     - junyong
-    
 
 - id: loco_style
   title: "Interactive Locomotion Style Control for a Human Character based on Gait Cycle Features"
@@ -25,7 +35,6 @@
     - jungeun
     - soojin
     - junyong
-
     
 - id: avatar_adaptation
   title: "Online Avatar Motion Adaptation to Morphologically‐similar Spaces"
