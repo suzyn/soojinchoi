@@ -1,10 +1,10 @@
 - id: asmr
   title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
   venue: Eurographics 2025, Computer Graphics Forum (CGF)
-  image: asmr.png
+  image: asmr_2.png
   authors:
-    - seokhyeon
-    - soojin
+    - seokhyeon*
+    - soojin*
     - chaelin
     - sihun
     - junyong
