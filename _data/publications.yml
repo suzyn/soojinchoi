@@ -8,6 +8,8 @@
     - chaelin
     - sihun
     - junyong
+  co: 2
+  etc: "(*equal contribution)"
 
 - id: retarget_interact
   title: "Geometry-Aware Retargeting for Two-Skinned Characters Interaction"
