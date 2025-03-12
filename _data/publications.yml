@@ -19,7 +19,6 @@
   venue: SIGGRAPH Asia 2024, ACM Transactions on Graphics (TOG)
   paper: "https://dl.acm.org/doi/pdf/10.1145/3687962"
   video: "https://www.youtube.com/watch?v=Igl9ghJEVG8&ab_channel=loveyourdaddy"
-  project_page: "https://loveyourdaddy.github.io/Geometry_Aware_Retargeting.github.io/"
   image: retarget_interact.png
   authors:
     - inseo
