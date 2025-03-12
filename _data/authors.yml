@@ -7,32 +7,36 @@ soojin:
 seokpyo:
   first_name: Seokpyo
   last_name: Hong
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/10
 kyungmin:
   first_name: Kyungmin 
   last_name: Cho
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/16
 chaelin:
   first_name: Chaelin
   last_name: Kim
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/128
 junyong:
   first_name: Junyong
   last_name: Noh
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/1
 haekwang:
   first_name: Haekwang
   last_name: Eom
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/11
 jungeun:
   first_name: Jung Eun 
   last_name: Yoo
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/19
 inseo:
   first_name: Inseo
   last_name: Jang
-  website: 
+  website: https://vml.kaist.ac.kr/main/people/person/134
 seokhyeon:
   first_name: Seokhyeon
   last_name: Hong
-  website: 
+  website: https://seokhyeonhong.github.io/
+sihun:
+  first_name: Sihun
+  last_name: Cha
+  website: https://vml.kaist.ac.kr/main/people/person/151
