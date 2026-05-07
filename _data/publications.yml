@@ -1,3 +1,17 @@
+- id: space
+  title: "Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance"
+  venue: SIGGRAPH 2026, ACM Transactions on Graphics (TOG)
+  # paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.14740"
+  # video: "https://youtu.be/yAS0iZ-V9is?si=khPjF0YIvzezqpqv"
+  image: space.png
+  authors:
+    - soojin
+    - seokhyeon
+    - chaelin
+    - Junghyun
+    - Junhyuk
+    - junyong
+
 - id: asmr
   title: "ASMR: Adaptive Skeleton-Mesh Rigging and Skinning via 2D Generative Prior"
   venue: Eurographics 2025, Computer Graphics Forum (CGF)
