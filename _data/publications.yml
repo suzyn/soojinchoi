@@ -1,8 +1,9 @@
 - id: space
   title: "Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance"
   venue: SIGGRAPH 2026, ACM Transactions on Graphics (TOG)
-  # paper: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.14740"
-  # video: "https://youtu.be/yAS0iZ-V9is?si=khPjF0YIvzezqpqv"
+  paper: "https://arxiv.org/abs/2605.19355"
+  video: "https://youtu.be/nguJeY5eUQc?si=POtkeS8oMQ6VNgVP"
+  project_page: "https://suzyn.github.io/space_page/"
   image: space.png
   authors:
     - soojin
