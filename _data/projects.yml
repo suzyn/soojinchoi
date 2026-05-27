@@ -1,20 +1,20 @@
-- name: 3D Character Motion Retargeting Project
-  support: NRF
+- name: Geometry-aware 3D Character Motion Retargeting
+  support: National Research Foundation of Korea (NRF)
   date: May. 2024 - Present
   role: Researcher Lead
   image: nrf_h.jpg
-  description: ""
+  description: "Research on skinned motion retargeting and skeleton-mesh rigging/skinning."
 
-- name: Samsung Human-centric AR Experiences
-  support: Samsung
+- name: SHARE: Samsung Human-centric AR Experiences
+  support: Samsung Advanced Institute of Technology (SAIT)
   date: Jun. 2021 - Dec. 2021
   role: Researcher
   image: samsung.png
-  description: "Development for real-scale human character AR application & research for real-time spatio-temporal motion transfer between morphologically-similar spaces."
+  description: "Research on real-time spatio-temporal motion transfer between morphologically-similar spaces."
 
 - name: ICONIX Co., Ltd.
   support: ICONIX
   date: Jan. 2019 - Feb. 2019
   role: Intern
   image: iconix.jpeg
-  description: "Story and Digital Content Development for 3D Animation"
+  description: "Story and Digital Content Development for 3D Animation."
