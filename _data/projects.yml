@@ -1,20 +1,20 @@
 - name: [Project] 3D Character Motion Retargeting Project
   support: NRF
-  date: May. 2024 ~ Ongoing
-  role: Project Manager
+  date: May. 2024 - Present
+  role: Researcher Lead
   image: nrf_h.jpg
   description: ""
 
 - name: [Project] Samsung Human-centric AR Experiences
   support: Samsung
-  date: Jun. 2021 ~ Dec. 2021
-  role: Software Developer
+  date: Jun. 2021 - Dec. 2021
+  role: Researcher
   image: samsung.png
   description: "Development for real-scale human character AR application & research for real-time spatio-temporal motion transfer between morphologically-similar spaces."
 
 - name: [Work] ICONIX Co., Ltd.
   support: ICONIX
-  date: Jan. 2019 ~ Feb. 2019
+  date: Jan. 2019 - Feb. 2019
   role: Intern
   image: ICONIX.png
   description: "Story and Digital Content Development for 3D Animation"
