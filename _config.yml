@@ -23,6 +23,8 @@ name: Soojin Choi
 position: Ph.D. student @ KAIST 
 email: 97choisj@kaist.ac.kr
 description: >-
+  <div style="text-align: right;" markdown="1">
+
   Hello, I am a Ph.D. student in [Visual Media Lab](https://vml.kaist.ac.kr/) at Korea Advanced Institute of Science and Technology ([KAIST](https://www.kaist.ac.kr/en/)), 
   advised by Prof. [Junyong Noh](https://vml.kaist.ac.kr/main/people/person/%201). <br/> <br/>
 
@@ -30,9 +32,11 @@ description: >-
   with a particular emphasis on deep learning-based <strong>3D full-body motion retargeting</strong> and <strong>automatic rigging and skinning</strong>. 
   Through my work, I aim to contribute to more efficient and high-quality animation production for the film and animation industries.  <br/> <br/>
 
-  <span style="display: inline-block; padding: 3px 8px; margin-right: 6px; border-radius: 6px; background-color: #ffe6f2; color: #a12a67; font-size: 0.85em; font-weight: 700; line-height: 1.2;">Open to Work</span> <br/>
+  <span style="display: inline-block; padding: 3px 8px; margin-right: 6px; border-radius: 6px; background-color: #ffe6f2; color: #ad3b72; font-size: 0.85em; font-weight: 700; line-height: 1.2;">Open to Work</span> 
   I am currently open to industry research internship opportunities.
   I would be glad to connect with research teams working in related areas and discuss potential opportunities for collaboration. 
+
+  </div>
 
 baseurl: "/soojinchoi" # the subpath of your site, e.g. /blog
 url: "https://suzyn.github.io/soojinchoi/" # the base hostname & protocol for your site, e.g. http://example.com
