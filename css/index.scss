@@ -3,10 +3,22 @@
 
 @import "base";
 
+// .title {
+//     // font-family: 'Lato';
+//     font-family: inherit;
+//     font-weight: 700;
+// }
+
 .title {
-    // font-family: 'Lato';
-    font-family: inherit;
-    font-weight: 700;
+  font-family: inherit;
+}
+
+.hero .title {
+  font-weight: 700;
+}
+
+.title.is-3 {
+  font-weight: 600;
 }
 
 .portrait {
