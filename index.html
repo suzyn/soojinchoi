@@ -31,7 +31,7 @@ layout: null
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet">
 
-  <!-- Icons / CSS -->
+  <!-- Icons -->
   <link
     href="{{ '/css/fontawesome.all.min.css' | relative_url }}"
     rel="stylesheet">
@@ -40,6 +40,7 @@ layout: null
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
     rel="stylesheet">
 
+  <!-- CSS -->
   <link
     href="{{ '/css/bulma.min.css' | relative_url }}"
     rel="stylesheet">
@@ -80,52 +81,56 @@ layout: null
             {{ site.name }}
           </h1>
 
-          <div class="content profile-description">
-
+          <!-- Profile description -->
+          <div class="profile-description">
             {{ site.description | markdownify }}
+          </div>
 
-            <div class="buttons">
+          <!-- Profile buttons -->
+          <div class="buttons profile-buttons">
 
-              <a
-                class="external-link button is-dark"
-                href="{{ './images/CV_SoojinChoi.pdf' | relative_url }}"
-                target="_blank">
-                <span class="icon">
-                  <i class="fas fa-file-pdf"></i>
-                </span>
-                <span>CV</span>
-              </a>
+            <a
+              class="button"
+              href="{{ './images/CV_SoojinChoi.pdf' | relative_url }}"
+              target="_blank">
+              <span class="icon">
+                <i class="fas fa-file-pdf"></i>
+              </span>
+              <span>CV</span>
+            </a>
 
-              <a
-                class="external-link button is-dark"
-                href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
-                <span class="icon">
-                  <i class="ai ai-google-scholar"></i>
-                </span>
-                <span>Scholar</span>
-              </a>
+            <a
+              class="button"
+              href="https://scholar.google.com/citations?user={{ site.google_scholar }}"
+              target="_blank">
+              <span class="icon">
+                <i class="ai ai-google-scholar"></i>
+              </span>
+              <span>Scholar</span>
+            </a>
 
-              <a
-                class="external-link button is-dark"
-                href="https://github.com/{{ site.github_username }}">
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-                <span>Github</span>
-              </a>
+            <a
+              class="button"
+              href="https://github.com/{{ site.github_username }}"
+              target="_blank">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Github</span>
+            </a>
 
-              <a
-                class="external-link button is-dark"
-                href="https://www.linkedin.com/in/soojin-choi-31a803201">
-                <span class="icon">
-                  <i class="fab fa-linkedin"></i>
-                </span>
-                <span>LinkedIn</span>
-              </a>
-
-            </div>
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/soojin-choi-31a803201"
+              target="_blank">
+              <span class="icon">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span>LinkedIn</span>
+            </a>
 
           </div>
+
         </div>
 
       </div>
@@ -144,7 +149,7 @@ layout: null
 
 
   <!-- =========================================================
-       Main content
+       Main
        ========================================================= -->
 
   <section class="section">
@@ -237,13 +242,22 @@ layout: null
         <div class="column">
           <div class="content">
 
-
             <!-- Title -->
 
             <h3 class="publication-title">
+
+              {% if publication.project_page %}
+
               <a href="{{ publication.project_page }}">
                 {{ publication.title }}
               </a>
+
+              {% else %}
+
+              {{ publication.title }}
+
+              {% endif %}
+
             </h3>
 
 
@@ -316,47 +330,57 @@ layout: null
             <div class="publication-links">
 
               {% if publication.project_page %}
+
               <a
                 class="publication-link"
                 href="{{ publication.project_page }}">
                 Project Page
               </a>
+
               {% endif %}
 
 
               {% if publication.paper %}
+
               <a
                 class="publication-link"
                 href="{{ publication.paper }}">
                 Paper
               </a>
+
               {% endif %}
 
 
               {% if publication.arxiv %}
+
               <a
                 class="publication-link"
                 href="https://arxiv.org/abs/{{ publication.arxiv }}">
                 arXiv
               </a>
+
               {% endif %}
 
 
               {% if publication.github %}
+
               <a
                 class="publication-link"
                 href="https://github.com/{{ publication.github }}">
                 Code
               </a>
+
               {% endif %}
 
 
               {% if publication.video %}
+
               <a
                 class="publication-link"
                 href="{{ publication.video }}">
                 Video
               </a>
+
               {% endif %}
 
             </div>
@@ -389,21 +413,20 @@ layout: null
 
         </div>
 
-
         <div class="column">
 
           <div class="content">
 
             <h3 class="publication-title">
-              <span>{{ project.name }}</span>
+              {{ project.name }}
             </h3>
 
             <div class="project-description">
-              <span>as a {{ project.role }}</span>
+              as a {{ project.role }}
             </div>
 
             <div class="project-description">
-              <span>{{ project.date }}</span>
+              {{ project.date }}
             </div>
 
             <p class="project-description">
@@ -439,21 +462,20 @@ layout: null
 
         </div>
 
-
         <div class="column">
 
           <div class="content">
 
             <h3 class="publication-title">
-              <span>{{ work.name }}</span>
+              {{ work.name }}
             </h3>
 
             <div class="work-description">
-              <span>as a {{ work.role }}</span>
+              as a {{ work.role }}
             </div>
 
             <div class="work-description">
-              <span>{{ work.date }}</span>
+              {{ work.date }}
             </div>
 
             <p class="work-description">
@@ -488,19 +510,18 @@ layout: null
         </a>
 
         <a
-          class="external-link"
-          href="https://github.com/{{ site.github_username }}">
+          href="https://github.com/{{ site.github_username }}"
+          target="_blank">
           <i class="fab fa-github"></i>
         </a>
 
         <a
-          class="external-link"
-          href="https://scholar.google.com/citations?user={{ site.google_scholar }}">
+          href="https://scholar.google.com/citations?user={{ site.google_scholar }}"
+          target="_blank">
           <i class="ai ai-google-scholar"></i>
         </a>
 
         <a
-          class="external-link"
           href="https://www.linkedin.com/in/soojin-choi-31a803201"
           target="_blank"
           rel="noopener noreferrer">
@@ -532,6 +553,7 @@ layout: null
     </div>
 
   </footer>
+
 
 </body>
 
