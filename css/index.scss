@@ -167,3 +167,127 @@
     flex: 0 0 80px;
   }
 }
+
+/* ===== Overall typography & spacing ===== */
+
+body {
+  font-size: 16px;
+  line-height: 1.55;
+  color: #222;
+}
+
+/* Main content width */
+.container.is-max-desktop {
+  max-width: 960px !important;
+}
+
+/* Top profile area */
+.hero-body {
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
+}
+
+/* Name */
+.hero .title {
+  font-size: 2.15rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+/* Normal text */
+.content {
+  line-height: 1.55;
+}
+
+.content p {
+  margin-bottom: 0.8rem;
+}
+
+/* Section titles: News / Publications / Projects / Work */
+.title.is-3 {
+  font-size: 1.3rem !important;
+  font-weight: 600;
+  line-height: 1.3;
+
+  margin-top: 2.8rem;
+  margin-bottom: 1.25rem !important;
+}
+
+/* First section title should not have extra top margin */
+.section .title.is-3:first-child {
+  margin-top: 0;
+}
+
+/* Main section */
+.section {
+  padding-top: 2.5rem;
+  padding-bottom: 3rem;
+}
+
+
+/* ===== Publication layout ===== */
+
+.publication-block {
+  margin-bottom: 1.3rem !important;
+}
+
+.publication-block .column {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.publication-title {
+  font-size: 1.05rem !important;
+  line-height: 1.35;
+  font-weight: 600;
+}
+
+.publication-authors,
+.publication-venue {
+  line-height: 1.45;
+}
+
+.publication-description {
+  margin-top: 0.35rem !important;
+  margin-bottom: 0.35rem !important;
+  line-height: 1.5;
+}
+
+
+/* ===== News ===== */
+
+.news-item {
+  margin-bottom: 0.3rem;
+  line-height: 1.5;
+}
+
+.news-date {
+  flex: 0 0 85px;
+  font-size: 0.95rem;
+}
+
+.news-toggle {
+  margin-top: 0.4rem;
+  font-size: 0.9rem;
+}
+
+
+/* ===== Mobile ===== */
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15.5px;
+  }
+
+  .hero-body {
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .section {
+    padding-top: 2rem;
+  }
+
+  .title.is-3 {
+    margin-top: 2.3rem;
+  }
