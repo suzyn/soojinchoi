@@ -3,6 +3,29 @@
 
 @import "base";
 
+/* Profile layout */
+
+.profile-columns {
+  align-items: flex-start;
+}
+
+.profile-columns > .column:first-child {
+  padding-right: 2rem;
+}
+
+.profile-columns > .column:last-child {
+  padding-left: 2rem;
+}
+
+
+/* Name */
+
+.hero .title {
+  font-size: 2.15rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
 
 /* ===== Typography ===== */
 
