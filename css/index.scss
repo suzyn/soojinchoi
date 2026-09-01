@@ -20,11 +20,6 @@ body {
   color: #222;
 }
 
-/*
- * Bulma gives some components their own typography rules.
- * Explicitly keep the site's text in Inter without applying
- * font-family to Font Awesome / Academicons icon elements.
- */
 .title,
 .subtitle,
 .content,
@@ -41,21 +36,7 @@ body {
 }
 
 
-/* Normal body text */
-
-.content,
-.content p,
-.publication-authors,
-.publication-venue,
-.publication-description,
-.project-description,
-.work-description,
-.news-item {
-  font-weight: 400;
-}
-
-
-/* Name */
+/* ===== Name ===== */
 
 .hero .title {
   font-size: 2.15rem;
@@ -65,7 +46,7 @@ body {
 }
 
 
-/* Section headings: News / Publications / Projects / Work */
+/* ===== Section titles ===== */
 
 .title.is-3 {
   font-size: 1.3rem !important;
@@ -76,9 +57,10 @@ body {
 }
 
 
-/* General text */
+/* ===== Normal text ===== */
 
 .content {
+  font-weight: 400;
   line-height: 1.55;
 }
 
@@ -105,8 +87,6 @@ body {
   padding-bottom: 3rem;
 }
 
-/* First section title should not get extra top spacing */
-
 .section .title.is-3:first-child {
   margin-top: 0;
 }
@@ -119,8 +99,6 @@ body {
 .profile-columns {
   align-items: flex-start;
 }
-
-/* More space between portrait and introduction */
 
 .profile-columns > .column:first-child {
   padding-right: 3rem;
@@ -165,70 +143,86 @@ body {
   }
 
 
-  /* Title */
+  /* ----------------------------------------------------------
+     Title
+     ---------------------------------------------------------- */
 
   .publication-title {
     width: fit-content;
-    margin: 0 !important;
 
-    font-size: 1.05rem !important;
-    font-weight: 500;
-    line-height: 1.35;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+    font-size: 1.08rem !important;
+    font-weight: 600;
+    line-height: 1.4;
 
     a {
-      color: #000;
+      color: #111;
     }
 
     a:hover {
-      text-decoration: underline;
+      color: #3273dc;
+      text-decoration: none;
     }
   }
 
 
-  /* Authors */
+  /* ----------------------------------------------------------
+     Authors
+     ---------------------------------------------------------- */
 
   .publication-authors {
+    margin-top: 0.45rem;
+
+    color: #333;
+    font-size: 0.95rem;
     font-weight: 400;
-    line-height: 1.45;
+    line-height: 1.5;
 
     .author-me {
-      color: #000;
+      color: #222;
       font-weight: 500;
       text-decoration: underline;
     }
 
     a {
-      color: #000 !important;
+      color: #333 !important;
     }
 
     a:hover {
+      color: #111 !important;
       text-decoration: underline;
     }
   }
 
 
-  /* Venue */
+  /* ----------------------------------------------------------
+     Venue
+     ---------------------------------------------------------- */
 
   .publication-venue {
     width: fit-content;
-    margin-top: 0;
 
-    color: #555;
+    margin-top: 0.32rem;
+
+    color: #777;
+    font-size: 0.92rem;
     font-weight: 400;
     line-height: 1.45;
   }
 
+
+  /* Award / special venue text */
+
   .publication-venue-emph {
-    padding-left: 0.25em;
+    padding-left: 0.35em;
 
     color: firebrick;
-    font-size: 80%;
+    font-size: 0.9em;
     font-style: normal;
     font-weight: 500;
   }
-
-
-  /* Awards */
 
   .publication-awards {
     width: fit-content;
@@ -238,19 +232,24 @@ body {
   }
 
 
-  /* Description */
+  /* ----------------------------------------------------------
+     Description
+     ---------------------------------------------------------- */
 
   .publication-description {
-    margin-top: 0.35rem !important;
-    margin-bottom: 0.35rem !important;
+    margin-top: 0.55rem !important;
+    margin-bottom: 0 !important;
 
-    color: #333;
+    color: #555;
+    font-size: 0.94rem;
     font-weight: 400;
     line-height: 1.5;
   }
 
 
-  /* Teaser */
+  /* ----------------------------------------------------------
+     Teaser
+     ---------------------------------------------------------- */
 
   .publication-image {
     width: 100%;
@@ -288,16 +287,13 @@ body {
 
 
 /* ============================================================
-   Publication-specific layout
+   Papers
    ============================================================ */
 
-/*
- * Larger spacing only between papers.
- * Projects and Work keep the smaller shared spacing.
- */
+/* More vertical space between papers */
 
 .publication-paper {
-  margin-bottom: 2.5rem !important;
+  margin-bottom: 2.6rem !important;
 }
 
 
@@ -310,8 +306,7 @@ body {
   flex-wrap: wrap;
 
   margin: 0 !important;
-  margin-top: 0.65rem !important;
-
+  margin-top: 0.7rem !important;
 
   .button {
     height: 1.9rem;
@@ -334,7 +329,6 @@ body {
     text-decoration: none;
   }
 
-
   .button:hover {
     background-color: #eaeaea !important;
     border-color: #bcbcbc !important;
@@ -342,7 +336,6 @@ body {
     color: #111 !important;
     text-decoration: none;
   }
-
 
   .button .icon {
     font-size: 0.8rem;
@@ -440,7 +433,7 @@ body {
   }
 
 
-  /* Main content */
+  /* Main section */
 
   .section {
     padding-top: 2rem;
@@ -451,10 +444,29 @@ body {
   }
 
 
-  /* Publication spacing */
+  /* Papers */
 
   .publication-paper {
-    margin-bottom: 2rem !important;
+    margin-bottom: 2.2rem !important;
+  }
+
+
+  /* Publication hierarchy */
+
+  .publication-block {
+    .publication-title {
+      font-size: 1.05rem !important;
+    }
+
+    .publication-authors {
+      margin-top: 0.4rem;
+      font-size: 0.94rem;
+    }
+
+    .publication-venue {
+      margin-top: 0.25rem;
+      font-size: 0.9rem;
+    }
   }
 
 
