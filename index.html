@@ -80,7 +80,7 @@ layout: null
             {{ site.name }}
           </h1>
 
-          <div class="content">
+          <div class="content profile-description">
 
             {{ site.description | markdownify }}
 
@@ -237,6 +237,9 @@ layout: null
         <div class="column">
           <div class="content">
 
+
+            <!-- Title -->
+
             <h3 class="publication-title">
               <a href="{{ publication.project_page }}">
                 {{ publication.title }}
@@ -308,92 +311,52 @@ layout: null
             </p>
 
 
-            <!-- Links -->
+            <!-- Publication links -->
 
-            <div class="publication-links buttons">
+            <div class="publication-links">
 
               {% if publication.project_page %}
-
               <a
-                class="external-link button is-small"
+                class="publication-link"
                 href="{{ publication.project_page }}">
-
-                <span class="icon">
-                  <i class="fas fa-globe-asia"></i>
-                </span>
-
-                <span>Project Page</span>
-
+                Project Page
               </a>
-
               {% endif %}
 
 
               {% if publication.paper %}
-
               <a
-                class="external-link button is-small"
+                class="publication-link"
                 href="{{ publication.paper }}">
-
-                <span class="icon">
-                  <i class="fas fa-file-pdf"></i>
-                </span>
-
-                <span>Paper</span>
-
+                Paper
               </a>
-
               {% endif %}
 
 
               {% if publication.arxiv %}
-
               <a
-                class="external-link button is-small"
+                class="publication-link"
                 href="https://arxiv.org/abs/{{ publication.arxiv }}">
-
-                <span class="icon">
-                  <i class="ai ai-arxiv"></i>
-                </span>
-
-                <span>arXiv</span>
-
+                arXiv
               </a>
-
               {% endif %}
 
 
               {% if publication.github %}
-
               <a
-                class="external-link button is-small"
+                class="publication-link"
                 href="https://github.com/{{ publication.github }}">
-
-                <span class="icon">
-                  <i class="fab fa-github"></i>
-                </span>
-
-                <span>Code</span>
-
+                Code
               </a>
-
               {% endif %}
 
 
               {% if publication.video %}
-
               <a
-                class="external-link button is-small"
+                class="publication-link"
                 href="{{ publication.video }}">
-
-                <span class="icon">
-                  <i class="fas fa-video"></i>
-                </span>
-
-                <span>Video</span>
-
+                Video
               </a>
-
               {% endif %}
 
             </div>
@@ -414,7 +377,7 @@ layout: null
 
       {% for project in site.data.projects %}
 
-      <div class="publication-block publication-paper columns">
+      <div class="publication-block columns">
 
         <div class="column is-3">
 
