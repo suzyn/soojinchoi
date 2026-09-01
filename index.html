@@ -99,7 +99,7 @@ layout: null
   <section class="section">
     <div class="container is-max-desktop">
 
-      <h2 class="title is-3">News</h2>
+      <!-- <h2 class="title is-3">News</h2>
       <div class="content">
         <ul>
           {% for news in site.data.news %}
@@ -108,8 +108,27 @@ layout: null
           </li>
           {% endfor %}
         </ul>
+      </div> -->
+      <h2 class="title is-3">News</h2>
+      <div class="news-list">
+        {% for news in site.data.news %}
+        <div class="news-item {% if forloop.index > 5 %}news-hidden{% endif %}">
+          <div class="news-date">
+            {{ news.date }}
+          </div>
+          <div class="news-description">
+            {{ news.description | markdownify | remove: '<p>' | remove: '</p>' }}
+          </div>
+        </div>
+        {% endfor %}
       </div>
-
+      
+      {% if site.data.news.size > 5 %}
+      <button id="news-toggle" class="news-toggle">
+        Show earlier updates
+      </button>
+      {% endif %}
+      
       <h3 class="title is-3">Publications</h3>
 
       {% for publication in site.data.publications %}
