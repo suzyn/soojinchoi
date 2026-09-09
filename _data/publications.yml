@@ -1,3 +1,21 @@
+- id: smart
+  title: "Skinned Motion Retargeting via Artifact-driven Kinematic Prior Refinement"
+  venue: SIGGRAPH Asia 2026, ACM Transactions on Graphics (TOG)
+  paper: "https://arxiv.org/abs/2609.06517"
+  video: "https://youtu.be/gpWf8LOA6eQ?si=NFTxYsurp7li9mZx"
+  project_page: "https://seokhyeonhong.github.io/projects/kinematic-refinement/"
+  code: "https://github.com/seokhyeonhong/kinematic-refinement"
+  image: smart.png
+  authors:
+    - seokhyeon
+    - chaelin
+    - inseo
+    - soojin
+    - junyong
+  co: 2
+  etc: "(*equal contribution)"
+
+
 - id: space
   title: "Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance"
   venue: SIGGRAPH 2026, ACM Transactions on Graphics (TOG)
