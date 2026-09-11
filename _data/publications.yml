@@ -15,6 +15,20 @@
   co: 2
   etc: "(*equal contribution)"
 
+- id: rechoir
+  title: "ReCHOIR: Contact-guided Human Object Interaction Retargeting to Diverse Characters"
+  venue: SIGGRAPH Asia 2026, ACM Transactions on Graphics (TOG)
+  paper: "https://arxiv.org/abs/2609.10982"
+  video: "https://youtu.be/xJpY9CWKBas?si=tmY-UMy9EAqP1f9j"
+  project_page: "https://cherry-leki.github.io/projects/ReCHOIR/"
+  image: rechoir.png
+  authors:
+    - chaelin
+    - seokhyeon
+    - kwan
+    - soojin
+    - inseo
+    - junyong
 
 - id: space
   title: "Skinned Motion Retargeting with Spatially Adaptive Interaction Guidance"
